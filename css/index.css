@@ -1,0 +1,19 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+.login{
+    margin: 0 auto;
+    text-align: center;
+    width: 300px;
+    margin-top: 170px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px;
+    border-radius: 20px;
+}
+input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid rgb(15, 255, 223);
+}
