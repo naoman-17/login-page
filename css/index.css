@@ -3,17 +3,34 @@
     margin: 0;
     scroll-behavior: smooth;
 }
+body{
+    background: url("../images/gehubg.jpg") no-repeat center;
+    background-size: cover;
+    height: 550px;
+}
 .login{
     margin: 0 auto;
     text-align: center;
     width: 300px;
-    margin-top: 170px;
     background-color: rgba(0, 0, 0, 0.7);
     padding: 70px;
+    margin-top: 150px;
     border-radius: 20px;
 }
 input{
-    padding: 10px;
+    padding: 15px;
     border-radius: 10px;
     border: 2px solid rgb(15, 255, 223);
+    font-size: 20px;
+}
+h2{
+    color: white;
+    letter-spacing: 4px;
+}
+.submit{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 20px;
 }
